@@ -46,9 +46,8 @@
   <project path="external/libpng" name="android_external_libpng" remote="corvus" />
   <project path="external/zlib" name="android_external_zlib" remote="corvus" />
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="corvus" />
-  <project path="external/motorola/faceunlock" name="victor10520/external_motorola_faceunlock" remote="gitlab" revision="11" clone-depth="1" />
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="corvus" />
-
+  <project path="external/faceunlock" name="android/external_faceunlock" remote="pe-gitlab"/>
 
   <!-- Frameworks -->
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="corvus" />
@@ -141,6 +140,7 @@
   <project path="packages/apps/CustomDoze" name="android_packages_apps_CustomDoze" remote="corvus" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="corvus" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="corvus" />
+  <project path="packages/apps/FaceUnlockService" name="PixelExperience/packages_apps_FaceUnlockService" remote="github" revision="eleven"/>
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="corvus" />
