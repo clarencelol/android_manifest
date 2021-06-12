@@ -73,7 +73,6 @@
   <remove-project name="platform/build/blueprint" />
 
   <!-- External -->
-  <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/google-fonts/arbutus-slab" />
@@ -92,6 +91,8 @@
   <remove-project name="platform/external/icu" />
   <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/cldr" />
+  <remove-project name="platform/external/zlib" />
+  <remove-project name="platform/external/arm-optimized-routines" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
